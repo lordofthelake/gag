@@ -1,6 +1,6 @@
 {
   "name": "gag",
-  "version": "0.0.2.pre",
+  "version": "0.0.3-pre",
   "description": "Don't gulp everything at once!",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,8 @@
   
   "homepage": "https://github.com/noematics/gag",
   "dependencies": {
-    "dataobject-parser": "^1.0.6",
     "extend": "^2.0.0",
-    "extnd": "0.0.3",
+    "node-extnd": "0.0.4",
     "findup-sync": "^0.2.1",
     "gulp": "^3.8.11",
     "lazypipe": "^0.2.2",
