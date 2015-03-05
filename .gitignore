@@ -1,0 +1,7 @@
+# NPM stuff
+node_modules/**
+**/npm-debug.log
+
+# Ignore OS-related files
+**/.DS_Store
+**/Thumbs.db

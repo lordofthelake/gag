@@ -1,0 +1,38 @@
+{
+  "name": "gag",
+  "version": "0.0.2.pre",
+  "description": "Don't gulp everything at once!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/noematics/gag"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Michele Piccirillo (https://github.com/lordofthelake)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noematics/gag/issues"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  
+  "homepage": "https://github.com/noematics/gag",
+  "dependencies": {
+    "dataobject-parser": "^1.0.6",
+    "extend": "^2.0.0",
+    "extnd": "0.0.3",
+    "findup-sync": "^0.2.1",
+    "gulp": "^3.8.11",
+    "lazypipe": "^0.2.2",
+    "lodash": "^3.3.1",
+    "pkginfo": "^0.3.0",
+    "yargs": "^3.4.5"
+  }
+}
