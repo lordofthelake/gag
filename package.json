@@ -1,6 +1,6 @@
 {
   "name": "gag",
-  "version": "0.0.4-pre",
+  "version": "0.0.5-pre",
   "description": "Don't gulp everything at once!",
   "main": "index.js",
   "scripts": {

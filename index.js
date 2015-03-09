@@ -21,7 +21,7 @@ var Gag = Class.extnd({
     this.buildTasks = function (targetGag) {
       var proxy = new GulpProxy(self);
       if(_.isFunction(fn))
-        fn.call(self, proxy, targetGag.config);
+        fn.call(self, proxy, targetGag.config, targetGag);
 
       return proxy.tasks;
     };
