@@ -9,11 +9,12 @@ var extend      = require('extend');
 var GulpProxy   = require('./lib/gulp-proxy.js');
 
 var Gag = Class.extnd({
-  init: function (mod, fn) {
+  init: function (mod, req, fn) {
     var self = this;
 
     this.module = mod;
-    this.packageInfo = require(findup('package.json', {cwd: path.dirname(mod.filename)}));
+    this.require = req;
+    this.packageInfo = req('./package.json');
     this.extensions = {};
     this.config = extend(true, this.packageInfo.config || {}, yargs.argv);
     this.tasks = {};
