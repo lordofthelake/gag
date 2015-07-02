@@ -1,14 +1,14 @@
 {
   "name": "gag",
-  "version": "0.0.7-pre",
-  "description": "Don't gulp everything at once!",
+  "version": "0.0.8-pre",
+  "description": "Don't gulp everything at once - split your Gulpfile into modules!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/noematics/gag"
+    "url": "http://github.com/lordofthelake/gag"
   },
   "keywords": [
     "gulp"
@@ -16,14 +16,14 @@
   "author": "Michele Piccirillo (https://github.com/lordofthelake)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noematics/gag/issues"
+    "url": "https://github.com/lordofthelake/gag/issues"
   },
   "files": [
     "index.js",
     "lib"
   ],
-  
-  "homepage": "https://github.com/noematics/gag",
+
+  "homepage": "https://github.com/lordofthelake/gag",
   "dependencies": {
     "extend": "^2.0.0",
     "node-extnd": "0.0.4",
